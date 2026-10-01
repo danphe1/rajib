@@ -1,0 +1,1 @@
+import {Admin} from '@/components/Site';import {Locale} from '@/lib/content';export default async function P({params}:{params:Promise<{locale:string}>}){const {locale:l}=await params;return <Admin locale={(l==='ne'?'ne':'en') as Locale}/>} 
