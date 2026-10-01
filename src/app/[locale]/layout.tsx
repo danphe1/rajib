@@ -1,0 +1,1 @@
+import {Header,Footer} from '@/components/Site';import {Locale} from '@/lib/content';export default async function Layout({children,params}:{children:React.ReactNode;params:Promise<{locale:string}>}){const {locale:l}=await params;const locale:Locale=l==='ne'?'ne':'en';return <><Header locale={locale}/>{children}<Footer locale={locale}/></>}
