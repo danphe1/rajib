@@ -1,1 +1,26 @@
-{"name":"rajib-khatry","version":"1.0.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"eslint ."},"dependencies":{"next":"16.0.0","react":"19.2.0","react-dom":"19.2.0"},"devDependencies":{"@types/node":"^22","@types/react":"^19","@types/react-dom":"^19","eslint":"^9","eslint-config-next":"16.0.0","typescript":"^5.7"}}
+{
+  "name": "rajib-khatry",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "next": "16.0.0",
+    "node-fetch": "^3.3.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "typescript": "^5.7"
+  }
+}
