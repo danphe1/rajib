@@ -1,0 +1,1 @@
+import {Home} from '@/components/Site';import {Locale} from '@/lib/content';export default async function Page({params}:{params:Promise<{locale:string}>}){const {locale:l}=await params;return <Home locale={(l==='ne'?'ne':'en') as Locale}/>} 
